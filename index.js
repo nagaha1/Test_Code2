@@ -48,3 +48,4 @@ p_nume *= 2;
 
 console.log(p_nume);
 // 数字に関しての脳死ぐいか
+
