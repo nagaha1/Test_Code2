@@ -49,3 +49,20 @@ p_nume *= 2;
 console.log(p_nume);
 // 数字に関しての脳死ぐいか
 
+//jQuery
+//$("h1").hide();
+var i = 1;
+var t;
+
+// $("#hide-text").clike(function() {
+//   $("#text").hide();
+// });
+
+$("text").hide();
+
+// while (true) {
+//   i++;
+//   String(i);
+//   $("h${i}").hide();
+//   console.log(i);
+// }

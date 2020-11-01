@@ -29,9 +29,9 @@ const names = [
 ];
 console.log(names);
 
-const fullName = names.map(names => {
-  return names.firstName + names.lastName;
-});
-// return names.firstName + names.lastName;
+// const fullName = names.map(names => {
+//   return names.firstName + names.lastName;
+// });
+// // return names.firstName + names.lastName;
 
-console.log(fullName);
+// console.log(fullName);
