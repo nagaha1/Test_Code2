@@ -15,7 +15,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0; 
   pointer-events: none;
 }
 
@@ -32,9 +32,9 @@ body {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: rgba(#fdfe00, 0.5);
+  background-color: rgba(#fdfe00, .5);
   z-indes: 1000;
-  transition: transform ease 0.1s;
+  transition: transform ease .1s;
   text-align: center;
   span {
     display: inline-block;
@@ -48,19 +48,20 @@ body {
 }
 
 .btn {
-  display: inline-block;
-  width: 160px;
-  margin: 16px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1;
+    display: inline-block;
+    width: 160px;
+    margin: 16px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
 
-  a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 16px;
-    background-color: #000;
-    cursor: none;
-  }
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px;
+      background-color: #000;
+      cursor: none;
+    }
+
 }

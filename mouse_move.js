@@ -22,12 +22,12 @@ function MouseImage() {
   document.body.appendChild(wmouse);
 
   // // イベント追加
-  // if (document.addEventListener) {
-  //   document.addEventListener("mousemove", MouseMove);
-  // } else if (document.attachEvent) {
-  //   document.attachEvent("onmousemove", MouseMove);
-  //   // onmousemove はマウスのポインタ（カーソル）を移動させている時のイベント。
-  // }
+  if (document.addEventListener) {
+    document.addEventListener("mousemove", MouseMove);
+  } else if (document.attachEvent) {
+    document.attachEvent("onmousemove", MouseMove);
+    // onmousemove はマウスのポインタ（カーソル）を移動させている時のイベント。
+  }
 }
 
 function MouseMove(e) {
@@ -39,7 +39,7 @@ function MouseMove(e) {
 MouseImage();
 
 // MouseMove();
-TestEvent();
+//TestEvent();
 
 function TestEvent() {
   // document.addEventListener("click", ClickFunction, false);
